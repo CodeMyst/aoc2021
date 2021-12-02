@@ -45,9 +45,6 @@ int main() {
 
     if (fp == NULL) return 1;
 
-    // store the contents of every line in the input
-    char buffer[10];
-
     // sliding window
     int win[3];
 
